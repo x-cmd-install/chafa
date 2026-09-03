@@ -1,0 +1,61 @@
+about:
+  description: 📺🗿 Terminal graphics for the 21st century.
+  license: LGPL-3.0
+  homepage: https://hpjansson.org/chafa/
+  head: ac94cd9
+  archived: false
+  latestVersion: 1.18.2
+  collectedAt: 2026-09-03T04:13:07Z
+timeline:
+  created: 2018-04-24
+  lastCommit: 2026-09-01
+  lastRelease: 2026-04-29
+popularity:
+  star: 5201
+  watcher: 37
+  fork: 117
+  release: 33
+  contributor: 37
+  pullRequest: 5
+  issue: 249
+language:
+  C: 2577058
+  C++: 97989
+  Shell: 41984
+  M4: 29137
+  Makefile: 14178
+  Python: 14136
+totalLine: 2774482
+recent:
+  last30d:
+    since: 2026-08-04
+    release: 0
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 1
+    openIssue: 0
+    commit: 88
+  last90d:
+    since: 2026-06-05
+    release: 0
+    mergedPR: 3
+    openPR: 0
+    closedIssue: 6
+    openIssue: 4
+    commit: 100
+  last180d:
+    since: 2026-03-07
+    release: 1
+    mergedPR: 3
+    openPR: 0
+    closedIssue: 7
+    openIssue: 6
+    commit: 122
+  last360d:
+    since: 2025-09-08
+    release: 3
+    mergedPR: 9
+    openPR: 0
+    closedIssue: 19
+    openIssue: 15
+    commit: 212
