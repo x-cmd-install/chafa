@@ -7,15 +7,15 @@ about:
   head: 19662e5
   archived: false
   latestVersion: 1.18.2
-  collectedAt: 2026-09-04T19:28:48Z
+  collectedAt: 2026-09-04T21:02:31Z
 timeline:
   created: 2018-04-24
   lastCommit: 2026-09-03
   lastRelease: 2026-04-29
 popularity:
-  star: 5210
+  star: 5211
   watcher: 37
-  fork: 117
+  fork: 118
   release: 33
   contributor: 37
   pullRequest: 67
@@ -85,6 +85,84 @@ total:
   openIssue: 54
   commit: 1789
 ---
+path: /home/runner/.x-repo/github.com/hpjansson/chafa
+collectedAt: 2026-09-04T21:02:33Z
+loc:
+  C:
+    code: 39701
+    comments: 6762
+    blanks: 8164
+    files: 82
+  CHeader:
+    code: 17439
+    comments: 6879
+    blanks: 1596
+    files: 81
+  Css:
+    code: 994
+    comments: 73
+    blanks: 176
+    files: 2
+  Xml:
+    code: 938
+    comments: 0
+    blanks: 90
+    files: 5
+  Sh:
+    code: 667
+    comments: 106
+    blanks: 165
+    files: 16
+  Automake:
+    code: 500
+    comments: 43
+    blanks: 118
+    files: 16
+  Python:
+    code: 334
+    comments: 33
+    blanks: 46
+    files: 2
+  M4:
+    code: 57
+    comments: 48
+    blanks: 5
+    files: 1
+  Zsh:
+    code: 53
+    comments: 1
+    blanks: 3
+    files: 1
+  Fish:
+    code: 49
+    comments: 0
+    blanks: 7
+    files: 1
+  Autoconf:
+    code: 17
+    comments: 6
+    blanks: 6
+    files: 3
+  Svg:
+    code: 4
+    comments: 0
+    blanks: 1
+    files: 1
+  Markdown:
+    code: 0
+    comments: 154
+    blanks: 84
+    files: 4
+  Text:
+    code: 0
+    comments: 367
+    blanks: 9
+    files: 1
+total:
+  code: 60753
+  comments: 14472
+  blanks: 10470
+  files: 216
 ---
 date: "2026-08-24"
 repo:
