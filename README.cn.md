@@ -4,7 +4,7 @@
 
 📺🗿 Terminal graphics for the 21st century.
 
-![chafa](https://repo.x-cmd.io/chafa.svg)
+![chafa](https://repo.x-cmd.io/chafa.svg?lang=zh)
 
 ## 安装
 
@@ -23,11 +23,17 @@ x install chafa
 - **最新版本**: `1.18.2` (2026-04-29)
 - **最近提交**: 2026-09-06
 - **Release 含资产**: 2 个
-- **发布时间**: 2026-04-29T21:52:19Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [chafa-1.18.2.tar.xz](https://github.com/hpjansson/chafa/releases/download/1.18.2/chafa-1.18.2.tar.xz) | 1.0 MiB | `other` |
+| [chafa-1.18.2.tar.xz.asc](https://github.com/hpjansson/chafa/releases/download/1.18.2/chafa-1.18.2.tar.xz.asc) | 488 B | `other` |
 
 ## 流行度
 
-- **Star**: 5,225 · **Fork**: 116 · **开放 issue**: 249 · **贡献者**: 37
+- **Star**: 5,228 · **Fork**: 116 · **开放 issue**: 249 · **贡献者**: 37
 
 ## 累计统计
 
@@ -72,4 +78,4 @@ chafa 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:46:13Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:10:10Z._

@@ -23,11 +23,17 @@ x install chafa
 - **Latest**: `1.18.2` (2026-04-29)
 - **Last commit**: 2026-09-06
 - **Assets in release**: 2
-- **Published**: 2026-04-29T21:52:19Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [chafa-1.18.2.tar.xz](https://github.com/hpjansson/chafa/releases/download/1.18.2/chafa-1.18.2.tar.xz) | 1.0 MiB | `other` |
+| [chafa-1.18.2.tar.xz.asc](https://github.com/hpjansson/chafa/releases/download/1.18.2/chafa-1.18.2.tar.xz.asc) | 488 B | `other` |
 
 ## Popularity
 
-- **Stars**: 5,225 · **Forks**: 116 · **Open issues**: 249 · **Contributors**: 37
+- **Stars**: 5,228 · **Forks**: 116 · **Open issues**: 249 · **Contributors**: 37
 
 ## Totals (cumulative)
 
@@ -68,8 +74,8 @@ Lowest-scoring checks:
 Install metadata for chafa lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `chafa` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/chafa.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/chafa.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:46:12Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:10:09Z._
