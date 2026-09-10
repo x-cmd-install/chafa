@@ -12,42 +12,7 @@
 x install chafa
 ```
 
-## Source
-
-- **Upstream**: <https://github.com/hpjansson/chafa>
-- **Homepage**: <https://hpjansson.org/chafa/>
-- **License**: LGPL-3.0
-
-## Release
-
-- **Latest**: `1.18.2` (2026-04-29)
-- **Last commit**: 2026-09-06
-- **Assets in release**: 2
-
-## Release assets
-
-| Asset | Size | Target |
-|-------|-----:|--------|
-| [chafa-1.18.2.tar.xz](https://github.com/hpjansson/chafa/releases/download/1.18.2/chafa-1.18.2.tar.xz) | 1.0 MiB | `other` |
-| [chafa-1.18.2.tar.xz.asc](https://github.com/hpjansson/chafa/releases/download/1.18.2/chafa-1.18.2.tar.xz.asc) | 488 B | `other` |
-
-## Popularity
-
-- **Stars**: 5,228 · **Forks**: 116 · **Open issues**: 249 · **Contributors**: 37
-
-## Totals (cumulative)
-
-- **Releases**: 33 · **Merged PRs**: 62 · **Open PRs**: 0 · **Closed issues**: 195 · **Open issues**: 54 · **Commits**: 1798
-
-## Recent activity
-
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 0 | 0 | 1 | 0 | 94 |
-| 90d | 2026-06-12 | 0 | 1 | 0 | 6 | 4 | 110 |
-| 360d | 2025-09-15 | 3 | 9 | 0 | 19 | 15 | 211 |
-
-## Code size
+## Code insight
 
 Total: **60,841** lines of code across **186** files in the top 5 languages.
 
@@ -69,6 +34,63 @@ Lowest-scoring checks:
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 
+## Source
+
+- **Upstream**: <https://github.com/hpjansson/chafa>
+- **Homepage**: <https://hpjansson.org/chafa/>
+- **License**: LGPL-3.0
+
+## Release
+
+- **Latest**: `1.18.2` (2026-04-29)
+- **Last commit**: 2026-09-06
+- **Assets in release**: 2
+
+## Popularity
+
+- **Stars**: 5,229 · **Forks**: 116 · **Open issues**: 249 · **Contributors**: 37
+
+## Totals (cumulative)
+
+- **Releases**: 33 · **Merged PRs**: 62 · **Open PRs**: 0 · **Closed issues**: 195 · **Open issues**: 54 · **Commits**: 1798
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 0 | 0 | 0 | 1 | 0 | 94 |
+| last60d | 2026-07-12 | 0 | 0 | 0 | 3 | 1 | 106 |
+| 90d | 2026-06-12 | 0 | 1 | 0 | 6 | 4 | 110 |
+| last180d | 2026-03-14 | 1 | 3 | 0 | 7 | 6 | 132 |
+| 360d | 2025-09-15 | 3 | 9 | 0 | 19 | 15 | 211 |
+| last720d | 2024-09-20 | 7 | 23 | 0 | 59 | 30 | 462 |
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [chafa-1.18.2.tar.xz](https://github.com/hpjansson/chafa/releases/download/1.18.2/chafa-1.18.2.tar.xz) | 1.0 MiB | `other` |
+| [chafa-1.18.2.tar.xz.asc](https://github.com/hpjansson/chafa/releases/download/1.18.2/chafa-1.18.2.tar.xz.asc) | 488 B | `other` |
+
+## Distribution status
+
+Reported by **183** distros on [repology.org](https://repology.org/project/chafa). **75** are ✅ on the latest upstream release, **98** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.18.2` | ✅ latest |
+| Debian 14 | `1.18.2` | ✅ latest |
+| Debian 13 | `1.14.5` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.18.1` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.14.0` | ⚠️ outdated |
+| Arch | `1.18.2` | ✅ latest |
+| Homebrew | `1.18.2` | ✅ latest |
+| Fedora rawhide | `1.18.2` | ✅ latest |
+| Nix unstable | `1.18.2` | ✅ latest |
+| Void | `1.18.2` | ✅ latest |
+| Alpine edge | `1.18.2` | ✅ latest |
+| openSUSE Tumbleweed | `1.18.2` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for chafa lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `chafa` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -78,4 +100,4 @@ Install metadata for chafa lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T16:10:09Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T21:16:02Z._
