@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,230 · **Forks**: 116 · **Open issues**: 249 · **Contributors**: 37
+- **Stars**: 5,234 · **Forks**: 118 · **Open issues**: 249 · **Contributors**: 37
 
 ## Totals (cumulative)
 
@@ -100,4 +100,4 @@ Install metadata for chafa lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T04:48:18Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T20:11:45Z._
