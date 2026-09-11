@@ -1,15 +1,5 @@
-- repo: crux_38
-  subrepo: contrib
-  srcname: chafa
-  visiblename: chafa
-  version: 1.18.2
-  origversion: null
-  status: newest
-  summary: Terminal graphics for the 21st century
-  maintainers:
-    - tbier@posteo.de
-- repo: apertis_v2027
-  subrepo: v2027dev1/development
+- repo: apertis_v2026
+  subrepo: v2026/development
   srcname: chafa
   binnames:
     - chafa
@@ -18,6 +8,19 @@
   visiblename: chafa
   version: 1.14.5
   origversion: 1.14.5-1+apertis0
+  status: outdated
+  maintainers:
+    - lumin@debian.org
+- repo: apertis_v2024
+  subrepo: v2024/development
+  srcname: chafa
+  binnames:
+    - chafa
+    - libchafa0
+    - libchafa-dev
+  visiblename: chafa
+  version: 1.12.4
+  origversion: 1.12.4-1+apertis0
   status: outdated
   maintainers:
     - lumin@debian.org
@@ -265,19 +268,6 @@
     - knuxify@gmail.com
   licenses:
     - LGPL-3.0-or-later
-- repo: apertis_v2025
-  subrepo: v2025/development
-  srcname: chafa
-  binnames:
-    - chafa
-    - libchafa0
-    - libchafa-dev
-  visiblename: chafa
-  version: 1.12.4
-  origversion: 1.12.4-1+apertis0
-  status: outdated
-  maintainers:
-    - lumin@debian.org
 - repo: alpine_3_21
   subrepo: community
   srcname: chafa
@@ -291,6 +281,19 @@
     - knuxify@gmail.com
   licenses:
     - LGPL-3.0-or-later
+- repo: apertis_v2027
+  subrepo: v2027dev1/development
+  srcname: chafa
+  binnames:
+    - chafa
+    - libchafa0t64
+    - libchafa-dev
+  visiblename: chafa
+  version: 1.14.5
+  origversion: 1.14.5-1+apertis0
+  status: outdated
+  maintainers:
+    - lumin@debian.org
 - repo: alpine_3_21
   subrepo: community
   srcname: chafa
@@ -408,19 +411,6 @@
     - knuxify@gmail.com
   licenses:
     - LGPL-3.0-or-later
-- repo: apertis_v2026
-  subrepo: v2026/development
-  srcname: chafa
-  binnames:
-    - chafa
-    - libchafa0t64
-    - libchafa-dev
-  visiblename: chafa
-  version: 1.14.5
-  origversion: 1.14.5-1+apertis0
-  status: outdated
-  maintainers:
-    - lumin@debian.org
 - repo: alpine_3_23
   subrepo: community
   srcname: chafa
@@ -709,8 +699,8 @@
     - fallback-mnt-aosc@repology
   categories:
     - utils
-- repo: apertis_v2024
-  subrepo: v2024/development
+- repo: apertis_v2025
+  subrepo: v2025/development
   srcname: chafa
   binnames:
     - chafa
@@ -858,6 +848,16 @@
   version: 1.16.0
   origversion: null
   status: outdated
+  summary: Terminal graphics for the 21st century
+  maintainers:
+    - tbier@posteo.de
+- repo: crux_38
+  subrepo: contrib
+  srcname: chafa
+  visiblename: chafa
+  version: 1.18.2
+  origversion: null
+  status: newest
   summary: Terminal graphics for the 21st century
   maintainers:
     - tbier@posteo.de
@@ -1148,24 +1148,6 @@
   categories:
     - Unspecified
 - repo: fedora_42
-  subrepo: updates
-  srcname: chafa
-  binnames:
-    - chafa
-    - chafa-libs
-    - chafa-static
-    - chafa-devel
-    - chafa-doc
-  visiblename: chafa
-  version: 1.18.2
-  origversion: 1.18.2-1.fc42
-  status: newest
-  summary: Image-to-text converter for terminal
-  licenses:
-    - LGPL-3.0-or-later
-  categories:
-    - Unspecified
-- repo: fedora_42
   subrepo: release
   srcname: chafa
   binnames:
@@ -1178,6 +1160,24 @@
   version: 1.14.5
   origversion: 1.14.5-2.fc42
   status: legacy
+  summary: Image-to-text converter for terminal
+  licenses:
+    - LGPL-3.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: updates
+  srcname: chafa
+  binnames:
+    - chafa
+    - chafa-libs
+    - chafa-static
+    - chafa-devel
+    - chafa-doc
+  visiblename: chafa
+  version: 1.18.2
+  origversion: 1.18.2-1.fc42
+  status: newest
   summary: Image-to-text converter for terminal
   licenses:
     - LGPL-3.0-or-later
@@ -1220,24 +1220,6 @@
   categories:
     - Unspecified
 - repo: fedora_44
-  subrepo: updates
-  srcname: chafa
-  binnames:
-    - chafa
-    - chafa-libs
-    - chafa-static
-    - chafa-devel
-    - chafa-doc
-  visiblename: chafa
-  version: 1.18.2
-  origversion: 1.18.2-1.fc44
-  status: newest
-  summary: Image-to-text converter for terminal
-  licenses:
-    - LGPL-3.0-or-later
-  categories:
-    - Unspecified
-- repo: fedora_44
   subrepo: release
   srcname: chafa
   binnames:
@@ -1250,6 +1232,24 @@
   version: 1.14.5
   origversion: 1.14.5-5.fc44
   status: legacy
+  summary: Image-to-text converter for terminal
+  licenses:
+    - LGPL-3.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: updates
+  srcname: chafa
+  binnames:
+    - chafa
+    - chafa-libs
+    - chafa-static
+    - chafa-devel
+    - chafa-doc
+  visiblename: chafa
+  version: 1.18.2
+  origversion: 1.18.2-1.fc44
+  status: newest
   summary: Image-to-text converter for terminal
   licenses:
     - LGPL-3.0-or-later
@@ -1531,6 +1531,15 @@
   summary: Image-to-text converter supporting a wide range of symbols and palettes, transparency, animations, etc. (mingw-w64)
   licenses:
     - spdx:LGPL-3.0-or-later
+- repo: pclinuxos
+  srcname: chafa
+  visiblename: chafa
+  version: 1.18.0
+  origversion: 1.18.0-1pclos2026
+  status: outdated
+  summary: Image-to-text converter for terminal
+  categories:
+    - System/Libraries
 - repo: msys2_clangarm64
   srcname: mingw-w64-chafa
   binname: mingw-w64-clang-aarch64-chafa
@@ -1716,24 +1725,24 @@
   categories:
     - Amusements/Toys/Graphics
 - repo: opensuse_leap_15_6
-  subrepo: updates/backports
-  srcname: chafa
-  visiblename: chafa
-  version: 1.16.1
-  origversion: 1.16.1-bp156.2.3.1
-  status: outdated
-  summary: Image-to-text converter for terminal
-  licenses:
-    - LGPL-3.0-or-later
-  categories:
-    - Amusements/Toys/Graphics
-- repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: chafa
   visiblename: chafa
   version: 1.12.5
   origversion: 1.12.5-bp156.1.6
   status: legacy
+  summary: Image-to-text converter for terminal
+  licenses:
+    - LGPL-3.0-or-later
+  categories:
+    - Amusements/Toys/Graphics
+- repo: opensuse_leap_15_6
+  subrepo: updates/backports
+  srcname: chafa
+  visiblename: chafa
+  version: 1.16.1
+  origversion: 1.16.1-bp156.2.3.1
+  status: outdated
   summary: Image-to-text converter for terminal
   licenses:
     - LGPL-3.0-or-later
@@ -1769,7 +1778,7 @@
     - chafa-doc
   visiblename: chafa
   version: 1.18.2
-  origversion: 1.18.2-63.13
+  origversion: 1.18.2-63.15
   status: newest
   summary: Image-to-text converter for terminal
   licenses:
@@ -1817,15 +1826,6 @@
     - lumin@debian.org
   categories:
     - misc
-- repo: pclinuxos
-  srcname: chafa
-  visiblename: chafa
-  version: 1.18.0
-  origversion: 1.18.0-1pclos2026
-  status: outdated
-  summary: Image-to-text converter for terminal
-  categories:
-    - System/Libraries
 - repo: pisi_main
   subrepo: main
   srcname: util/misc/chafa

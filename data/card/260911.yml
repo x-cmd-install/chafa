@@ -7,7 +7,7 @@ about:
   latestVersion: "1.18.2"
   latestRelease: "1.18.2"
   latestPrerelease: "0.9.0"
-  collectedAt: 2026-09-11T04:48:12Z
+  collectedAt: 2026-09-11T20:11:34Z
 timeline:
   created: 2018-04-24
   lastCommit: 2026-09-06
@@ -15,9 +15,9 @@ timeline:
   lastRelease: 2026-04-29
   lastPrerelease: 2018-05-03
 popularity:
-  star: 5230
+  star: 5234
   watcher: 38
-  fork: 116
+  fork: 118
   release: 33
   contributor: 37
   pullRequest: 67
@@ -88,7 +88,7 @@ total:
   commit: 1798
 ---
 path: /home/runner/.x-repo/github.com/hpjansson/chafa
-collectedAt: 2026-09-11T04:48:13Z
+collectedAt: 2026-09-11T20:11:37Z
 loc:
   C:
     code: 39788
