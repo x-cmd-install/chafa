@@ -30,9 +30,9 @@ Overall score: **5.3 / 10**
 
 Lowest-scoring checks:
 
+- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 
 ## Source
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,239 · **Forks**: 118 · **Open issues**: 249 · **Contributors**: 37
+- **Stars**: 5,242 · **Forks**: 118 · **Open issues**: 250 · **Contributors**: 37
 
 ## Totals (cumulative)
 
-- **Releases**: 33 · **Merged PRs**: 62 · **Open PRs**: 0 · **Closed issues**: 195 · **Open issues**: 54 · **Commits**: 1798
+- **Releases**: 33 · **Merged PRs**: 62 · **Open PRs**: 0 · **Closed issues**: 195 · **Open issues**: 55 · **Commits**: 1798
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-15 | 0 | 0 | 0 | 0 | 0 | 54 |
-| last60d | 2026-07-16 | 0 | 0 | 0 | 2 | 1 | 106 |
-| 90d | 2026-06-16 | 0 | 1 | 0 | 5 | 4 | 110 |
-| last180d | 2026-03-18 | 1 | 3 | 0 | 6 | 6 | 132 |
-| 360d | 2025-09-19 | 3 | 9 | 0 | 19 | 15 | 211 |
-| last720d | 2024-09-24 | 7 | 23 | 0 | 59 | 30 | 462 |
+| 30d | 2026-08-16 | 0 | 0 | 0 | 0 | 1 | 54 |
+| last60d | 2026-07-17 | 0 | 0 | 0 | 2 | 2 | 106 |
+| 90d | 2026-06-17 | 0 | 1 | 0 | 5 | 5 | 110 |
+| last180d | 2026-03-19 | 1 | 3 | 0 | 6 | 7 | 132 |
+| 360d | 2025-09-20 | 3 | 9 | 0 | 19 | 16 | 211 |
+| last720d | 2024-09-25 | 7 | 23 | 0 | 59 | 31 | 462 |
 
 ## Release assets
 
@@ -81,4 +81,4 @@ Install metadata for chafa lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260914.yml` · 2026-09-14T04:56:12Z._
+_Snapshot: `data/card/260915.yml` · 2026-09-15T05:11:42Z._
