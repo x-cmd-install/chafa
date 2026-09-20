@@ -4,7 +4,7 @@
 
 📺🗿 Terminal graphics for the 21st century.
 
-![chafa](https://repo.x-cmd.io/chafa.svg)
+[![x-cmd/install — chafa Code Quality Monitoring Repo Card](https://repo.x-cmd.io/chafa.svg)](https://x-cmd.com/install/chafa)
 
 ## Install
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,258 · **Forks**: 118 · **Open issues**: 250 · **Contributors**: 37
+- **Stars**: 5,260 · **Forks**: 119 · **Open issues**: 250 · **Contributors**: 37
 
 ## Totals (cumulative)
 
-- **Releases**: 33 · **Merged PRs**: 62 · **Open PRs**: 0 · **Closed issues**: 195 · **Open issues**: 55 · **Commits**: 1798
+- **Releases**: 33 · **Merged PRs**: 62 · **Open PRs**: 0 · **Closed issues**: 196 · **Open issues**: 54 · **Commits**: 1798
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 0 | 0 | 0 | 1 | 54 |
-| last60d | 2026-07-20 | 0 | 0 | 0 | 2 | 2 | 106 |
-| 90d | 2026-06-20 | 0 | 1 | 0 | 5 | 4 | 110 |
-| last180d | 2026-03-22 | 1 | 3 | 0 | 6 | 7 | 132 |
-| 360d | 2025-09-23 | 3 | 9 | 0 | 19 | 16 | 211 |
-| last720d | 2024-09-28 | 7 | 23 | 0 | 59 | 31 | 462 |
+| 30d | 2026-08-21 | 0 | 0 | 0 | 0 | 1 | 39 |
+| last60d | 2026-07-22 | 0 | 0 | 0 | 2 | 2 | 98 |
+| 90d | 2026-06-22 | 0 | 1 | 0 | 5 | 4 | 107 |
+| last180d | 2026-03-24 | 1 | 3 | 0 | 6 | 7 | 132 |
+| 360d | 2025-09-25 | 3 | 9 | 0 | 20 | 15 | 207 |
+| last720d | 2024-09-30 | 7 | 23 | 0 | 60 | 29 | 462 |
 
 ## Release assets
 
@@ -81,4 +81,4 @@ Install metadata for chafa lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T04:36:55Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T04:49:34Z._
