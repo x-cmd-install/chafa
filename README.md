@@ -4,7 +4,7 @@
 
 📺🗿 Terminal graphics for the 21st century.
 
-[![x-cmd/install — chafa Code Quality Monitoring Repo Card](https://repo.x-cmd.io/chafa.svg)](https://x-cmd.com/install/chafa)
+[![x-cmd/install — chafa Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/chafa.svg)](https://x-cmd.com/install/chafa)
 
 ## Install
 
@@ -14,11 +14,11 @@ x install chafa
 
 ## Code insight
 
-Total: **60,841** lines of code across **186** files in the top 5 languages.
+Total: **60,878** lines of code across **186** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 39,788 | 6,764 | 8,171 | 82 |
+| C | 39,825 | 6,772 | 8,183 | 82 |
 | CHeader | 17,440 | 6,879 | 1,596 | 81 |
 | Css | 994 | 73 | 176 | 2 |
 | Xml | 938 | 0 | 90 | 5 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.18.2` (2026-04-29)
-- **Last commit**: 2026-09-06
+- **Last commit**: 2026-09-22
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 5,265 · **Forks**: 119 · **Open issues**: 250 · **Contributors**: 37
+- **Stars**: 5,266 · **Forks**: 119 · **Open issues**: 250 · **Contributors**: 37
 
 ## Totals (cumulative)
 
-- **Releases**: 33 · **Merged PRs**: 62 · **Open PRs**: 0 · **Closed issues**: 196 · **Open issues**: 54 · **Commits**: 1798
+- **Releases**: 33 · **Merged PRs**: 62 · **Open PRs**: 0 · **Closed issues**: 197 · **Open issues**: 53 · **Commits**: 1800
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 0 | 0 | 0 | 1 | 39 |
-| last60d | 2026-07-24 | 0 | 0 | 0 | 1 | 2 | 98 |
-| 90d | 2026-06-24 | 0 | 0 | 0 | 3 | 4 | 107 |
-| last180d | 2026-03-26 | 1 | 3 | 0 | 6 | 7 | 132 |
-| 360d | 2025-09-27 | 3 | 9 | 0 | 20 | 15 | 207 |
-| last720d | 2024-10-02 | 7 | 23 | 0 | 60 | 29 | 462 |
+| 30d | 2026-08-24 | 0 | 0 | 0 | 1 | 0 | 0 |
+| last60d | 2026-07-25 | 0 | 0 | 0 | 2 | 1 | 0 |
+| 90d | 2026-06-25 | 0 | 0 | 0 | 4 | 3 | 0 |
+| last180d | 2026-03-27 | 1 | 3 | 0 | 7 | 6 | 0 |
+| 360d | 2025-09-28 | 3 | 9 | 0 | 20 | 14 | 0 |
+| last720d | 2024-10-03 | 7 | 23 | 0 | 61 | 28 | 464 |
 
 ## Release assets
 
@@ -81,4 +81,4 @@ Install metadata for chafa lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T04:49:02Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T04:47:21Z._
