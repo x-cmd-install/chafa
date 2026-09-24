@@ -42,35 +42,35 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `1.18.2` (2026-04-29)
-- **Last commit**: 2026-09-22
+- **Latest**: `1.18.3` (2026-09-23)
+- **Last commit**: 2026-09-23
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 5,266 · **Forks**: 119 · **Open issues**: 250 · **Contributors**: 37
+- **Stars**: 5,268 · **Forks**: 118 · **Open issues**: 250 · **Contributors**: 37
 
 ## Totals (cumulative)
 
-- **Releases**: 33 · **Merged PRs**: 62 · **Open PRs**: 0 · **Closed issues**: 197 · **Open issues**: 53 · **Commits**: 1800
+- **Releases**: 34 · **Merged PRs**: 62 · **Open PRs**: 0 · **Closed issues**: 197 · **Open issues**: 53 · **Commits**: 1803
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-24 | 0 | 0 | 0 | 1 | 0 | 0 |
-| last60d | 2026-07-25 | 0 | 0 | 0 | 2 | 1 | 0 |
-| 90d | 2026-06-25 | 0 | 0 | 0 | 4 | 3 | 0 |
-| last180d | 2026-03-27 | 1 | 3 | 0 | 7 | 6 | 0 |
-| 360d | 2025-09-28 | 3 | 9 | 0 | 20 | 14 | 0 |
-| last720d | 2024-10-03 | 7 | 23 | 0 | 61 | 28 | 464 |
+| 30d | 2026-08-25 | 1 | 0 | 0 | 1 | 0 | 44 |
+| last60d | 2026-07-26 | 1 | 0 | 0 | 2 | 1 | 103 |
+| 90d | 2026-06-26 | 1 | 0 | 0 | 4 | 3 | 112 |
+| last180d | 2026-03-28 | 2 | 3 | 0 | 7 | 6 | 137 |
+| 360d | 2025-09-29 | 4 | 9 | 0 | 20 | 14 | 212 |
+| last720d | 2024-10-04 | 8 | 23 | 0 | 60 | 28 | 467 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [chafa-1.18.2.tar.xz](https://github.com/hpjansson/chafa/releases/download/1.18.2/chafa-1.18.2.tar.xz) | 1.0 MiB | `other` |
-| [chafa-1.18.2.tar.xz.asc](https://github.com/hpjansson/chafa/releases/download/1.18.2/chafa-1.18.2.tar.xz.asc) | 488 B | `other` |
+| [chafa-1.18.3.tar.xz](https://github.com/hpjansson/chafa/releases/download/1.18.3/chafa-1.18.3.tar.xz) | 1.0 MiB | `other` |
+| [chafa-1.18.3.tar.xz.asc](https://github.com/hpjansson/chafa/releases/download/1.18.3/chafa-1.18.3.tar.xz.asc) | 488 B | `other` |
 
 ## Improve this data
 
@@ -81,4 +81,4 @@ Install metadata for chafa lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260923.yml` · 2026-09-23T04:47:21Z._
+_Snapshot: `data/card/260924.yml` · 2026-09-24T04:42:17Z._
