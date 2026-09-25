@@ -14,12 +14,12 @@ x install chafa
 
 ## Code insight
 
-Total: **60,878** lines of code across **186** files in the top 5 languages.
+Total: **61,022** lines of code across **187** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 39,825 | 6,772 | 8,183 | 82 |
-| CHeader | 17,440 | 6,879 | 1,596 | 81 |
+| C | 39,963 | 6,794 | 8,216 | 83 |
+| CHeader | 17,442 | 6,879 | 1,597 | 81 |
 | Css | 994 | 73 | 176 | 2 |
 | Xml | 938 | 0 | 90 | 5 |
 | Sh | 667 | 106 | 165 | 16 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.18.3` (2026-09-23)
-- **Last commit**: 2026-09-23
+- **Last commit**: 2026-09-24
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 5,268 · **Forks**: 118 · **Open issues**: 250 · **Contributors**: 37
+- **Stars**: 5,273 · **Forks**: 118 · **Open issues**: 251 · **Contributors**: 37
 
 ## Totals (cumulative)
 
-- **Releases**: 34 · **Merged PRs**: 62 · **Open PRs**: 0 · **Closed issues**: 197 · **Open issues**: 53 · **Commits**: 1803
+- **Releases**: 34 · **Merged PRs**: 62 · **Open PRs**: 0 · **Closed issues**: 197 · **Open issues**: 54 · **Commits**: 1807
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-25 | 1 | 0 | 0 | 1 | 0 | 44 |
-| last60d | 2026-07-26 | 1 | 0 | 0 | 2 | 1 | 103 |
-| 90d | 2026-06-26 | 1 | 0 | 0 | 4 | 3 | 112 |
-| last180d | 2026-03-28 | 2 | 3 | 0 | 7 | 6 | 137 |
-| 360d | 2025-09-29 | 4 | 9 | 0 | 20 | 14 | 212 |
-| last720d | 2024-10-04 | 8 | 23 | 0 | 60 | 28 | 467 |
+| 30d | 2026-08-26 | 1 | 0 | 0 | 1 | 1 | 48 |
+| last60d | 2026-07-27 | 1 | 0 | 0 | 2 | 2 | 107 |
+| 90d | 2026-06-27 | 1 | 0 | 0 | 4 | 3 | 116 |
+| last180d | 2026-03-29 | 2 | 3 | 0 | 7 | 7 | 141 |
+| 360d | 2025-09-30 | 4 | 8 | 0 | 18 | 14 | 216 |
+| last720d | 2024-10-05 | 8 | 23 | 0 | 60 | 29 | 471 |
 
 ## Release assets
 
@@ -81,4 +81,4 @@ Install metadata for chafa lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260924.yml` · 2026-09-24T04:42:17Z._
+_Snapshot: `data/card/260925.yml` · 2026-09-25T04:50:25Z._
