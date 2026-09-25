@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 1070576,
       "digest": "sha256:fb995ef21dce6c73dd0dd454ba3e0f7fac08e053ea16060a2e5ce69a3746ee27",
-      "download_count": 112,
+      "download_count": 171,
       "created_at": "2026-09-23T16:58:11Z",
       "updated_at": "2026-09-23T16:58:13Z",
       "browser_download_url": "https://github.com/hpjansson/chafa/releases/download/1.18.3/chafa-1.18.3.tar.xz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 488,
       "digest": "sha256:158e9248b6f2be8b79e0bafdb1b3c7dc81f59725c40d770bbd4eca04ac99328d",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-09-23T16:58:17Z",
       "updated_at": "2026-09-23T16:58:17Z",
       "browser_download_url": "https://github.com/hpjansson/chafa/releases/download/1.18.3/chafa-1.18.3.tar.xz.asc"
@@ -114,13 +114,13 @@
   "body": "This is a bugfix release.\r\n\r\n* libheif 1.12.0 or later is now formally required for HEIF support. We were already calling functions introduced in 1.9.0 and 1.12.0.\r\n\r\n* Sixels are no longer used inside tmux when the outer terminal can't display them. tmux claims the capability on its own behalf regardless of what's outside it, so we now ask what its client supports instead (#348, reported by @guerda).\r\n\r\n* Padding and fully transparent areas revealed by alpha thresholding are now correctly painted in the flat background color instead of the closest match (#354, reported by @ismay-tue).\r\n\r\n* Bug fixes:\r\n  #347        Alignment-induced crash on AMD/CachyOS (reported by @yeslamm and @quantumfate).\r\n  [unfiled]   CLI: Hang when `--files` was used and standard input was a pipe.\r\n  [unfiled]   CLI: Potential busy-wait for a complete token from a file list.\r\n  [unfiled]   CLI: TIFF images decoded with wrong channel order on big-endian.\r\n  [unfiled]   CLI: Integer overflow in image loader size arithmetic (@zouyonghe).\r\n  [unfiled]   CLI: Unbounded allocation decoding GIF frames larger than the file's logical extent.\r\n  [unfiled]   OOB read one entry past the end of the palette color table.\r\n  [unfiled]   Double free of the pixel canvas after `chafa_canvas_new_similar()`.\r\n  [unfiled]   Spurious pen added to palettes with fewer than 255 colors.\r\n",
   "reactions": {
     "url": "https://api.github.com/repos/hpjansson/chafa/releases/394876582/reactions",
-    "total_count": 4,
-    "+1": 2,
+    "total_count": 9,
+    "+1": 5,
     "-1": 0,
     "laugh": 0,
-    "hooray": 2,
+    "hooray": 3,
     "confused": 0,
-    "heart": 0,
+    "heart": 1,
     "rocket": 0,
     "eyes": 0
   },
