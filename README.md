@@ -14,15 +14,15 @@ x install chafa
 
 ## Code insight
 
-Total: **62,358** lines of code across **187** files in the top 5 languages.
+Total: **62,387** lines of code across **187** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 41,193 | 7,064 | 8,517 | 84 |
-| CHeader | 17,502 | 7,165 | 1,628 | 80 |
+| C | 41,220 | 7,069 | 8,522 | 84 |
+| CHeader | 17,503 | 7,165 | 1,629 | 80 |
 | Css | 994 | 73 | 176 | 2 |
 | Xml | 955 | 0 | 90 | 5 |
-| Sh | 685 | 109 | 170 | 16 |
+| Sh | 686 | 109 | 171 | 16 |
 
 ## OpenSSF Scorecard
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.18.3` (2026-09-23)
-- **Last commit**: 2026-09-28
+- **Last commit**: 2026-09-29
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 5,285 · **Forks**: 118 · **Open issues**: 251 · **Contributors**: 37
+- **Stars**: 5,286 · **Forks**: 119 · **Open issues**: 251 · **Contributors**: 37
 
 ## Totals (cumulative)
 
-- **Releases**: 34 · **Merged PRs**: 62 · **Open PRs**: 0 · **Closed issues**: 197 · **Open issues**: 54 · **Commits**: 1860
+- **Releases**: 34 · **Merged PRs**: 62 · **Open PRs**: 0 · **Closed issues**: 197 · **Open issues**: 54 · **Commits**: 1864
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 1 | 0 | 0 | 1 | 1 | 71 |
-| last60d | 2026-07-31 | 1 | 0 | 0 | 2 | 1 | 160 |
-| 90d | 2026-07-01 | 1 | 0 | 0 | 4 | 3 | 168 |
-| last180d | 2026-04-02 | 2 | 3 | 0 | 7 | 7 | 194 |
-| 360d | 2025-10-04 | 4 | 8 | 0 | 18 | 14 | 268 |
-| last720d | 2024-10-09 | 8 | 23 | 0 | 60 | 29 | 524 |
+| 30d | 2026-08-31 | 1 | 0 | 0 | 1 | 1 | 75 |
+| last60d | 2026-08-01 | 1 | 0 | 0 | 2 | 1 | 164 |
+| 90d | 2026-07-02 | 1 | 0 | 0 | 4 | 2 | 172 |
+| last180d | 2026-04-03 | 2 | 3 | 0 | 7 | 7 | 198 |
+| 360d | 2025-10-05 | 4 | 8 | 0 | 18 | 14 | 272 |
+| last720d | 2024-10-10 | 8 | 23 | 0 | 59 | 29 | 528 |
 
 ## Release assets
 
@@ -81,4 +81,4 @@ Install metadata for chafa lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260929.yml` · 2026-09-29T05:46:26Z._
+_Snapshot: `data/card/260930.yml` · 2026-09-30T05:26:50Z._
