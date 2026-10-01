@@ -14,11 +14,11 @@ x install chafa
 
 ## Code insight
 
-Total: **62,387** lines of code across **187** files in the top 5 languages.
+Total: **62,388** lines of code across **187** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 41,220 | 7,069 | 8,522 | 84 |
+| C | 41,221 | 7,069 | 8,522 | 84 |
 | CHeader | 17,503 | 7,165 | 1,629 | 80 |
 | Css | 994 | 73 | 176 | 2 |
 | Xml | 955 | 0 | 90 | 5 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.18.3` (2026-09-23)
-- **Last commit**: 2026-09-29
+- **Last commit**: 2026-09-30
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 5,286 · **Forks**: 119 · **Open issues**: 251 · **Contributors**: 37
+- **Stars**: 5,289 · **Forks**: 119 · **Open issues**: 251 · **Contributors**: 37
 
 ## Totals (cumulative)
 
-- **Releases**: 34 · **Merged PRs**: 62 · **Open PRs**: 0 · **Closed issues**: 197 · **Open issues**: 54 · **Commits**: 1864
+- **Releases**: 34 · **Merged PRs**: 62 · **Open PRs**: 0 · **Closed issues**: 197 · **Open issues**: 54 · **Commits**: 1865
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-31 | 1 | 0 | 0 | 1 | 1 | 75 |
-| last60d | 2026-08-01 | 1 | 0 | 0 | 2 | 1 | 164 |
-| 90d | 2026-07-02 | 1 | 0 | 0 | 4 | 2 | 172 |
-| last180d | 2026-04-03 | 2 | 3 | 0 | 7 | 7 | 198 |
-| 360d | 2025-10-05 | 4 | 8 | 0 | 18 | 14 | 272 |
-| last720d | 2024-10-10 | 8 | 23 | 0 | 59 | 29 | 528 |
+| 30d | 2026-09-01 | 1 | 0 | 0 | 1 | 1 | 76 |
+| last60d | 2026-08-02 | 1 | 0 | 0 | 2 | 1 | 165 |
+| 90d | 2026-07-03 | 1 | 0 | 0 | 4 | 2 | 173 |
+| last180d | 2026-04-04 | 2 | 3 | 0 | 7 | 7 | 199 |
+| 360d | 2025-10-06 | 4 | 8 | 0 | 18 | 14 | 273 |
+| last720d | 2024-10-11 | 8 | 23 | 0 | 59 | 29 | 529 |
 
 ## Release assets
 
@@ -81,4 +81,4 @@ Install metadata for chafa lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260930.yml` · 2026-09-30T05:26:50Z._
+_Snapshot: `data/card/261001.yml` · 2026-10-01T05:48:15Z._
