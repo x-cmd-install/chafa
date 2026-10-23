@@ -48,7 +48,7 @@ x install chafa
 
 ## 流行度
 
-- **Star**: 5,342 · **Fork**: 121 · **开放 issue**: 253 · **贡献者**: 37
+- **Star**: 5,343 · **Fork**: 121 · **开放 issue**: 253 · **贡献者**: 37
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install chafa
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 1 | 0 | 0 | 1 | 2 | 73 |
-| last60d | 2026-08-23 | 1 | 0 | 0 | 2 | 2 | 132 |
-| 90d | 2026-07-24 | 1 | 0 | 0 | 3 | 3 | 186 |
-| last180d | 2026-04-25 | 2 | 3 | 0 | 8 | 8 | 210 |
-| 360d | 2025-10-27 | 4 | 8 | 0 | 18 | 15 | 265 |
-| last720d | 2024-11-01 | 8 | 23 | 0 | 58 | 28 | 541 |
+| 30d | 2026-09-23 | 1 | 0 | 0 | 1 | 2 | 73 |
+| last60d | 2026-08-24 | 1 | 0 | 0 | 2 | 2 | 132 |
+| 90d | 2026-07-25 | 1 | 0 | 0 | 3 | 3 | 186 |
+| last180d | 2026-04-26 | 2 | 3 | 0 | 8 | 8 | 210 |
+| 360d | 2025-10-28 | 4 | 8 | 0 | 18 | 15 | 265 |
+| last720d | 2024-11-02 | 8 | 23 | 0 | 58 | 28 | 532 |
 
 ## Release 资产
 
@@ -71,6 +71,25 @@ x install chafa
 |------|-----:|----------|
 | [chafa-1.18.3.tar.xz](https://github.com/hpjansson/chafa/releases/download/1.18.3/chafa-1.18.3.tar.xz) | 1.0 MiB | `other` |
 | [chafa-1.18.3.tar.xz.asc](https://github.com/hpjansson/chafa/releases/download/1.18.3/chafa-1.18.3.tar.xz.asc) | 488 B | `other` |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/chafa) 上共有 **178** 个发行版报告此项目。**43** 个 ✅ 已是最新上游版本，**124** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `1.18.2` | ⚠️ outdated |
+| Debian 14 | `1.18.2` | ⚠️ outdated |
+| Debian 13 | `1.14.5` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.18.1` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.14.0` | ⚠️ outdated |
+| Arch | `1.18.3` | ✅ latest |
+| Homebrew | `1.18.3` | ✅ latest |
+| Fedora rawhide | `1.18.3` | ✅ latest |
+| Nix unstable | `1.18.3` | ✅ latest |
+| Void | `1.18.3` | ✅ latest |
+| Alpine edge | `1.18.2` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.18.3` | ✅ latest |
 
 ## 改进这些数据
 
@@ -81,4 +100,4 @@ chafa 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T04:35:06Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T04:41:18Z._
