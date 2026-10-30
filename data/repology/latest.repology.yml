@@ -1,50 +1,33 @@
-- repo: opensuse_leap_15_6
-  subrepo: updates/backports
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: chafa
+  binnames:
+    - chafa
+    - libchafa0t64
+    - libchafa-dev
   visiblename: chafa
-  version: 1.16.1
-  origversion: 1.16.1-bp156.2.3.1
+  version: 1.18.2
+  origversion: 1.18.2-1
   status: outdated
-  summary: Image-to-text converter for terminal
-  licenses:
-    - LGPL-3.0-or-later
-  categories:
-    - Amusements/Toys/Graphics
-- repo: stalix
-  srcname: lib/chafa
-  binname: lib/chafa
-  visiblename: lib/chafa
-  version: 1.18.3
-  origversion: null
-  status: newest
   maintainers:
-    - anton@samokhvalov.xyz
+    - lumin@debian.org
   categories:
-    - lib
-- repo: alpine_3_18
-  subrepo: community
+    - misc
+- repo: deepin_25
+  subrepo: main
   srcname: chafa
-  binname: chafa
+  binnames:
+    - chafa
+    - libchafa0
+    - libchafa-dev
   visiblename: chafa
   version: 1.12.5
-  origversion: 1.12.5-r0
+  origversion: 1.12.5-3
   status: outdated
-  summary: Terminal graphics for the 21st century
   maintainers:
-    - knuxify@gmail.com
-  licenses:
-    - LGPL-3.0-or-later
-- repo: stalix_dev
-  srcname: bin/chafa
-  binname: bin/chafa
-  visiblename: bin/chafa
-  version: 1.18.3
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
+    - lumin@debian.org
   categories:
-    - bin
+    - graphics
 - repo: aerynos
   srcname: chafa
   visiblename: chafa
@@ -107,264 +90,281 @@
     - knuxify@gmail.com
   licenses:
     - LGPL-3.0-or-later
-- repo: alpine_3_18
-  subrepo: community
+- repo: debian_unstable
+  subrepo: sid/main
   srcname: chafa
-  binname: chafa-dev
-  visiblename: chafa-dev
-  version: 1.12.5
-  origversion: 1.12.5-r0
-  status: outdated
-  summary: Terminal graphics for the 21st century (development files)
-  maintainers:
-    - knuxify@gmail.com
-  licenses:
-    - LGPL-3.0-or-later
-- repo: alpine_3_18
-  subrepo: community
-  srcname: chafa
-  binname: chafa-doc
-  visiblename: chafa-doc
-  version: 1.12.5
-  origversion: 1.12.5-r0
-  status: outdated
-  summary: Terminal graphics for the 21st century (documentation)
-  maintainers:
-    - knuxify@gmail.com
-  licenses:
-    - LGPL-3.0-or-later
-- repo: alpine_3_18
-  subrepo: community
-  srcname: chafa
-  binname: chafa-libs
-  visiblename: chafa-libs
-  version: 1.12.5
-  origversion: 1.12.5-r0
-  status: outdated
-  summary: Terminal graphics for the 21st century (libraries)
-  maintainers:
-    - knuxify@gmail.com
-  licenses:
-    - LGPL-3.0-or-later
-- repo: alpine_3_19
-  subrepo: community
-  srcname: chafa
-  binname: chafa
+  binnames:
+    - chafa
+    - libchafa0t64
+    - libchafa-dev
   visiblename: chafa
-  version: 1.12.5
-  origversion: 1.12.5-r1
+  version: 1.18.2
+  origversion: 1.18.2-1
   status: outdated
-  summary: Terminal graphics for the 21st century
   maintainers:
-    - knuxify@gmail.com
-  licenses:
-    - LGPL-3.0-or-later
-- repo: alpine_3_19
-  subrepo: community
-  srcname: chafa
-  binname: chafa-dev
-  visiblename: chafa-dev
-  version: 1.12.5
-  origversion: 1.12.5-r1
-  status: outdated
-  summary: Terminal graphics for the 21st century (development files)
-  maintainers:
-    - knuxify@gmail.com
-  licenses:
-    - LGPL-3.0-or-later
-- repo: alpine_3_19
-  subrepo: community
-  srcname: chafa
-  binname: chafa-doc
-  visiblename: chafa-doc
-  version: 1.12.5
-  origversion: 1.12.5-r1
-  status: outdated
-  summary: Terminal graphics for the 21st century (documentation)
-  maintainers:
-    - knuxify@gmail.com
-  licenses:
-    - LGPL-3.0-or-later
-- repo: alpine_3_19
-  subrepo: community
-  srcname: chafa
-  binname: chafa-libs
-  visiblename: chafa-libs
-  version: 1.12.5
-  origversion: 1.12.5-r1
-  status: outdated
-  summary: Terminal graphics for the 21st century (libraries)
-  maintainers:
-    - knuxify@gmail.com
-  licenses:
-    - LGPL-3.0-or-later
-- repo: alpine_3_20
-  subrepo: community
-  srcname: chafa
-  binname: chafa
-  visiblename: chafa
-  version: 1.14.0
-  origversion: 1.14.0-r0
-  status: outdated
-  summary: Terminal graphics for the 21st century
-  maintainers:
-    - knuxify@gmail.com
-  licenses:
-    - LGPL-3.0-or-later
-- repo: alpine_3_20
-  subrepo: community
-  srcname: chafa
-  binname: chafa-dev
-  visiblename: chafa-dev
-  version: 1.14.0
-  origversion: 1.14.0-r0
-  status: outdated
-  summary: Terminal graphics for the 21st century (development files)
-  maintainers:
-    - knuxify@gmail.com
-  licenses:
-    - LGPL-3.0-or-later
-- repo: alpine_3_20
-  subrepo: community
-  srcname: chafa
-  binname: chafa-doc
-  visiblename: chafa-doc
-  version: 1.14.0
-  origversion: 1.14.0-r0
-  status: outdated
-  summary: Terminal graphics for the 21st century (documentation)
-  maintainers:
-    - knuxify@gmail.com
-  licenses:
-    - LGPL-3.0-or-later
-- repo: alpine_3_20
-  subrepo: community
-  srcname: chafa
-  binname: chafa-libs
-  visiblename: chafa-libs
-  version: 1.14.0
-  origversion: 1.14.0-r0
-  status: outdated
-  summary: Terminal graphics for the 21st century (libraries)
-  maintainers:
-    - knuxify@gmail.com
-  licenses:
-    - LGPL-3.0-or-later
-- repo: alpine_3_21
-  subrepo: community
-  srcname: chafa
-  binname: chafa
-  visiblename: chafa
-  version: 1.14.5
-  origversion: 1.14.5-r0
-  status: outdated
-  summary: Terminal graphics for the 21st century
-  maintainers:
-    - knuxify@gmail.com
-  licenses:
-    - LGPL-3.0-or-later
-- repo: alpine_3_21
-  subrepo: community
-  srcname: chafa
-  binname: chafa-dev
-  visiblename: chafa-dev
-  version: 1.14.5
-  origversion: 1.14.5-r0
-  status: outdated
-  summary: Terminal graphics for the 21st century (development files)
-  maintainers:
-    - knuxify@gmail.com
-  licenses:
-    - LGPL-3.0-or-later
-- repo: alpine_3_21
-  subrepo: community
-  srcname: chafa
-  binname: chafa-doc
-  visiblename: chafa-doc
-  version: 1.14.5
-  origversion: 1.14.5-r0
-  status: outdated
-  summary: Terminal graphics for the 21st century (documentation)
-  maintainers:
-    - knuxify@gmail.com
-  licenses:
-    - LGPL-3.0-or-later
-- repo: alpine_3_21
-  subrepo: community
-  srcname: chafa
-  binname: chafa-libs
-  visiblename: chafa-libs
-  version: 1.14.5
-  origversion: 1.14.5-r0
-  status: outdated
-  summary: Terminal graphics for the 21st century (libraries)
-  maintainers:
-    - knuxify@gmail.com
-  licenses:
-    - LGPL-3.0-or-later
-- repo: alpine_3_22
-  subrepo: community
-  srcname: chafa
-  binname: chafa
-  visiblename: chafa
-  version: 1.16.1
-  origversion: 1.16.1-r0
-  status: outdated
-  summary: Terminal graphics for the 21st century
-  maintainers:
-    - knuxify@gmail.com
-  licenses:
-    - LGPL-3.0-or-later
-- repo: alpine_3_22
-  subrepo: community
-  srcname: chafa
-  binname: chafa-dev
-  visiblename: chafa-dev
-  version: 1.16.1
-  origversion: 1.16.1-r0
-  status: outdated
-  summary: Terminal graphics for the 21st century (development files)
-  maintainers:
-    - knuxify@gmail.com
-  licenses:
-    - LGPL-3.0-or-later
-- repo: alpine_3_22
-  subrepo: community
-  srcname: chafa
-  binname: chafa-doc
-  visiblename: chafa-doc
-  version: 1.16.1
-  origversion: 1.16.1-r0
-  status: outdated
-  summary: Terminal graphics for the 21st century (documentation)
-  maintainers:
-    - knuxify@gmail.com
-  licenses:
-    - LGPL-3.0-or-later
-- repo: alpine_3_22
-  subrepo: community
-  srcname: chafa
-  binname: chafa-fish-completion
-  visiblename: chafa-fish-completion
-  version: 1.16.1
-  origversion: 1.16.1-r0
-  status: outdated
-  summary: Fish completions for chafa
-  maintainers:
-    - knuxify@gmail.com
-  licenses:
-    - LGPL-3.0-or-later
-- repo: stalix_dev
-  srcname: lib/chafa
-  binname: lib/chafa
-  visiblename: lib/chafa
-  version: 1.18.3
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
+    - lumin@debian.org
   categories:
-    - lib
+    - misc
+- repo: alpine_3_18
+  subrepo: community
+  srcname: chafa
+  binname: chafa
+  visiblename: chafa
+  version: 1.12.5
+  origversion: 1.12.5-r0
+  status: outdated
+  summary: Terminal graphics for the 21st century
+  maintainers:
+    - knuxify@gmail.com
+  licenses:
+    - LGPL-3.0-or-later
+- repo: alpine_3_18
+  subrepo: community
+  srcname: chafa
+  binname: chafa-dev
+  visiblename: chafa-dev
+  version: 1.12.5
+  origversion: 1.12.5-r0
+  status: outdated
+  summary: Terminal graphics for the 21st century (development files)
+  maintainers:
+    - knuxify@gmail.com
+  licenses:
+    - LGPL-3.0-or-later
+- repo: alpine_3_18
+  subrepo: community
+  srcname: chafa
+  binname: chafa-doc
+  visiblename: chafa-doc
+  version: 1.12.5
+  origversion: 1.12.5-r0
+  status: outdated
+  summary: Terminal graphics for the 21st century (documentation)
+  maintainers:
+    - knuxify@gmail.com
+  licenses:
+    - LGPL-3.0-or-later
+- repo: alpine_3_18
+  subrepo: community
+  srcname: chafa
+  binname: chafa-libs
+  visiblename: chafa-libs
+  version: 1.12.5
+  origversion: 1.12.5-r0
+  status: outdated
+  summary: Terminal graphics for the 21st century (libraries)
+  maintainers:
+    - knuxify@gmail.com
+  licenses:
+    - LGPL-3.0-or-later
+- repo: alpine_3_19
+  subrepo: community
+  srcname: chafa
+  binname: chafa
+  visiblename: chafa
+  version: 1.12.5
+  origversion: 1.12.5-r1
+  status: outdated
+  summary: Terminal graphics for the 21st century
+  maintainers:
+    - knuxify@gmail.com
+  licenses:
+    - LGPL-3.0-or-later
+- repo: alpine_3_19
+  subrepo: community
+  srcname: chafa
+  binname: chafa-dev
+  visiblename: chafa-dev
+  version: 1.12.5
+  origversion: 1.12.5-r1
+  status: outdated
+  summary: Terminal graphics for the 21st century (development files)
+  maintainers:
+    - knuxify@gmail.com
+  licenses:
+    - LGPL-3.0-or-later
+- repo: alpine_3_19
+  subrepo: community
+  srcname: chafa
+  binname: chafa-doc
+  visiblename: chafa-doc
+  version: 1.12.5
+  origversion: 1.12.5-r1
+  status: outdated
+  summary: Terminal graphics for the 21st century (documentation)
+  maintainers:
+    - knuxify@gmail.com
+  licenses:
+    - LGPL-3.0-or-later
+- repo: alpine_3_19
+  subrepo: community
+  srcname: chafa
+  binname: chafa-libs
+  visiblename: chafa-libs
+  version: 1.12.5
+  origversion: 1.12.5-r1
+  status: outdated
+  summary: Terminal graphics for the 21st century (libraries)
+  maintainers:
+    - knuxify@gmail.com
+  licenses:
+    - LGPL-3.0-or-later
+- repo: alpine_3_20
+  subrepo: community
+  srcname: chafa
+  binname: chafa
+  visiblename: chafa
+  version: 1.14.0
+  origversion: 1.14.0-r0
+  status: outdated
+  summary: Terminal graphics for the 21st century
+  maintainers:
+    - knuxify@gmail.com
+  licenses:
+    - LGPL-3.0-or-later
+- repo: alpine_3_20
+  subrepo: community
+  srcname: chafa
+  binname: chafa-dev
+  visiblename: chafa-dev
+  version: 1.14.0
+  origversion: 1.14.0-r0
+  status: outdated
+  summary: Terminal graphics for the 21st century (development files)
+  maintainers:
+    - knuxify@gmail.com
+  licenses:
+    - LGPL-3.0-or-later
+- repo: alpine_3_20
+  subrepo: community
+  srcname: chafa
+  binname: chafa-doc
+  visiblename: chafa-doc
+  version: 1.14.0
+  origversion: 1.14.0-r0
+  status: outdated
+  summary: Terminal graphics for the 21st century (documentation)
+  maintainers:
+    - knuxify@gmail.com
+  licenses:
+    - LGPL-3.0-or-later
+- repo: alpine_3_20
+  subrepo: community
+  srcname: chafa
+  binname: chafa-libs
+  visiblename: chafa-libs
+  version: 1.14.0
+  origversion: 1.14.0-r0
+  status: outdated
+  summary: Terminal graphics for the 21st century (libraries)
+  maintainers:
+    - knuxify@gmail.com
+  licenses:
+    - LGPL-3.0-or-later
+- repo: alpine_3_21
+  subrepo: community
+  srcname: chafa
+  binname: chafa
+  visiblename: chafa
+  version: 1.14.5
+  origversion: 1.14.5-r0
+  status: outdated
+  summary: Terminal graphics for the 21st century
+  maintainers:
+    - knuxify@gmail.com
+  licenses:
+    - LGPL-3.0-or-later
+- repo: alpine_3_21
+  subrepo: community
+  srcname: chafa
+  binname: chafa-dev
+  visiblename: chafa-dev
+  version: 1.14.5
+  origversion: 1.14.5-r0
+  status: outdated
+  summary: Terminal graphics for the 21st century (development files)
+  maintainers:
+    - knuxify@gmail.com
+  licenses:
+    - LGPL-3.0-or-later
+- repo: alpine_3_21
+  subrepo: community
+  srcname: chafa
+  binname: chafa-doc
+  visiblename: chafa-doc
+  version: 1.14.5
+  origversion: 1.14.5-r0
+  status: outdated
+  summary: Terminal graphics for the 21st century (documentation)
+  maintainers:
+    - knuxify@gmail.com
+  licenses:
+    - LGPL-3.0-or-later
+- repo: alpine_3_21
+  subrepo: community
+  srcname: chafa
+  binname: chafa-libs
+  visiblename: chafa-libs
+  version: 1.14.5
+  origversion: 1.14.5-r0
+  status: outdated
+  summary: Terminal graphics for the 21st century (libraries)
+  maintainers:
+    - knuxify@gmail.com
+  licenses:
+    - LGPL-3.0-or-later
+- repo: alpine_3_22
+  subrepo: community
+  srcname: chafa
+  binname: chafa
+  visiblename: chafa
+  version: 1.16.1
+  origversion: 1.16.1-r0
+  status: outdated
+  summary: Terminal graphics for the 21st century
+  maintainers:
+    - knuxify@gmail.com
+  licenses:
+    - LGPL-3.0-or-later
+- repo: alpine_3_22
+  subrepo: community
+  srcname: chafa
+  binname: chafa-dev
+  visiblename: chafa-dev
+  version: 1.16.1
+  origversion: 1.16.1-r0
+  status: outdated
+  summary: Terminal graphics for the 21st century (development files)
+  maintainers:
+    - knuxify@gmail.com
+  licenses:
+    - LGPL-3.0-or-later
+- repo: alpine_3_22
+  subrepo: community
+  srcname: chafa
+  binname: chafa-doc
+  visiblename: chafa-doc
+  version: 1.16.1
+  origversion: 1.16.1-r0
+  status: outdated
+  summary: Terminal graphics for the 21st century (documentation)
+  maintainers:
+    - knuxify@gmail.com
+  licenses:
+    - LGPL-3.0-or-later
+- repo: alpine_3_22
+  subrepo: community
+  srcname: chafa
+  binname: chafa-fish-completion
+  visiblename: chafa-fish-completion
+  version: 1.16.1
+  origversion: 1.16.1-r0
+  status: outdated
+  summary: Fish completions for chafa
+  maintainers:
+    - knuxify@gmail.com
+  licenses:
+    - LGPL-3.0-or-later
 - repo: alpine_3_22
   subrepo: community
   srcname: chafa
@@ -508,129 +508,123 @@
     - knuxify@gmail.com
   licenses:
     - LGPL-3.0-or-later
-- repo: alpine_3_24
-  subrepo: community
-  srcname: chafa
-  binname: chafa-doc
-  visiblename: chafa-doc
-  version: 1.18.2
-  origversion: 1.18.2-r0
-  status: outdated
-  summary: Terminal graphics for the 21st century (documentation)
-  maintainers:
-    - knuxify@gmail.com
-  licenses:
-    - LGPL-3.0-or-later
-- repo: alpine_3_24
-  subrepo: community
-  srcname: chafa
-  binname: chafa-fish-completion
-  visiblename: chafa-fish-completion
-  version: 1.18.2
-  origversion: 1.18.2-r0
-  status: outdated
-  summary: Fish completions for chafa
-  maintainers:
-    - knuxify@gmail.com
-  licenses:
-    - LGPL-3.0-or-later
-- repo: alpine_3_24
-  subrepo: community
-  srcname: chafa
-  binname: chafa-libs
-  visiblename: chafa-libs
-  version: 1.18.2
-  origversion: 1.18.2-r0
-  status: outdated
-  summary: Terminal graphics for the 21st century (libraries)
-  maintainers:
-    - knuxify@gmail.com
-  licenses:
-    - LGPL-3.0-or-later
-- repo: alpine_3_24
-  subrepo: community
-  srcname: chafa
-  binname: chafa-zsh-completion
-  visiblename: chafa-zsh-completion
-  version: 1.18.2
-  origversion: 1.18.2-r0
-  status: outdated
-  summary: Zsh completions for chafa
-  maintainers:
-    - knuxify@gmail.com
-  licenses:
-    - LGPL-3.0-or-later
-- repo: alpine_edge
-  subrepo: community
-  srcname: chafa
-  binname: chafa
-  visiblename: chafa
-  version: 1.18.2
-  origversion: 1.18.2-r1
-  status: outdated
-  summary: Terminal graphics for the 21st century
-  maintainers:
-    - alpine@uart.sh
-  licenses:
-    - LGPL-3.0-or-later
-- repo: alpine_edge
-  subrepo: community
-  srcname: chafa
-  binname: chafa-bash-completion
-  visiblename: chafa-bash-completion
-  version: 1.18.2
-  origversion: 1.18.2-r1
-  status: outdated
-  summary: Bash completions for chafa
-  maintainers:
-    - alpine@uart.sh
-  licenses:
-    - LGPL-3.0-or-later
-- repo: alpine_edge
-  subrepo: community
-  srcname: chafa
-  binname: chafa-dev
-  visiblename: chafa-dev
-  version: 1.18.2
-  origversion: 1.18.2-r1
-  status: outdated
-  summary: Terminal graphics for the 21st century (development files)
-  maintainers:
-    - alpine@uart.sh
-  licenses:
-    - LGPL-3.0-or-later
-- repo: alpine_edge
-  subrepo: community
-  srcname: chafa
-  binname: chafa-doc
-  visiblename: chafa-doc
-  version: 1.18.2
-  origversion: 1.18.2-r1
-  status: outdated
-  summary: Terminal graphics for the 21st century (documentation)
-  maintainers:
-    - alpine@uart.sh
-  licenses:
-    - LGPL-3.0-or-later
-- repo: chimera
+- repo: deepin_23
   subrepo: main
   srcname: chafa
-  binname: chafa
+  binnames:
+    - chafa
+    - libchafa0
+    - libchafa-dev
   visiblename: chafa
+  version: 1.12.5
+  origversion: 1.12.5-3
+  status: outdated
+  maintainers:
+    - lumin@debian.org
+  categories:
+    - graphics
+- repo: alpine_3_24
+  subrepo: community
+  srcname: chafa
+  binname: chafa-doc
+  visiblename: chafa-doc
   version: 1.18.2
   origversion: 1.18.2-r0
   status: outdated
-  summary: Character art facsimile generator
-  licenses:
-    - LGPL-3.0-or-later AND GPL-3.0-or-later
-- repo: spack
-  srcname: chafa
-  visiblename: chafa
-  version: 1.16.2
-  origversion: null
-  status: outdated
+  summary: Terminal graphics for the 21st century (documentation)
   maintainers:
-    - fallback-mnt-spack@repology
+    - knuxify@gmail.com
+  licenses:
+    - LGPL-3.0-or-later
+- repo: alpine_3_24
+  subrepo: community
+  srcname: chafa
+  binname: chafa-fish-completion
+  visiblename: chafa-fish-completion
+  version: 1.18.2
+  origversion: 1.18.2-r0
+  status: outdated
+  summary: Fish completions for chafa
+  maintainers:
+    - knuxify@gmail.com
+  licenses:
+    - LGPL-3.0-or-later
+- repo: alpine_3_24
+  subrepo: community
+  srcname: chafa
+  binname: chafa-libs
+  visiblename: chafa-libs
+  version: 1.18.2
+  origversion: 1.18.2-r0
+  status: outdated
+  summary: Terminal graphics for the 21st century (libraries)
+  maintainers:
+    - knuxify@gmail.com
+  licenses:
+    - LGPL-3.0-or-later
+- repo: alpine_3_24
+  subrepo: community
+  srcname: chafa
+  binname: chafa-zsh-completion
+  visiblename: chafa-zsh-completion
+  version: 1.18.2
+  origversion: 1.18.2-r0
+  status: outdated
+  summary: Zsh completions for chafa
+  maintainers:
+    - knuxify@gmail.com
+  licenses:
+    - LGPL-3.0-or-later
+- repo: alpine_edge
+  subrepo: community
+  srcname: chafa
+  binname: chafa
+  visiblename: chafa
+  version: 1.18.2
+  origversion: 1.18.2-r1
+  status: outdated
+  summary: Terminal graphics for the 21st century
+  maintainers:
+    - alpine@uart.sh
+  licenses:
+    - LGPL-3.0-or-later
+- repo: alpine_edge
+  subrepo: community
+  srcname: chafa
+  binname: chafa-bash-completion
+  visiblename: chafa-bash-completion
+  version: 1.18.2
+  origversion: 1.18.2-r1
+  status: outdated
+  summary: Bash completions for chafa
+  maintainers:
+    - alpine@uart.sh
+  licenses:
+    - LGPL-3.0-or-later
+- repo: alpine_edge
+  subrepo: community
+  srcname: chafa
+  binname: chafa-dev
+  visiblename: chafa-dev
+  version: 1.18.2
+  origversion: 1.18.2-r1
+  status: outdated
+  summary: Terminal graphics for the 21st century (development files)
+  maintainers:
+    - alpine@uart.sh
+  licenses:
+    - LGPL-3.0-or-later
+- repo: alpine_edge
+  subrepo: community
+  srcname: chafa
+  binname: chafa-doc
+  visiblename: chafa-doc
+  version: 1.18.2
+  origversion: 1.18.2-r1
+  status: outdated
+  summary: Terminal graphics for the 21st century (documentation)
+  maintainers:
+    - alpine@uart.sh
   licenses:
     - LGPL-3.0-or-later
 - repo: alpine_edge
@@ -812,21 +806,17 @@
   summary: Image-to-text converter supporting a wide range of symbols and palettes, transparency, animations, etc.
   licenses:
     - LGPL-3.0-or-later
-- repo: ubuntu_26_10
-  subrepo: stonking/universe
+- repo: chimera
+  subrepo: main
   srcname: chafa
-  binnames:
-    - chafa
-    - libchafa0t64
-    - libchafa-dev
+  binname: chafa
   visiblename: chafa
   version: 1.18.2
-  origversion: 1.18.2-1
+  origversion: 1.18.2-r0
   status: outdated
-  maintainers:
-    - lumin@debian.org
-  categories:
-    - universe/misc
+  summary: Character art facsimile generator
+  licenses:
+    - LGPL-3.0-or-later AND GPL-3.0-or-later
 - repo: chimera
   subrepo: main
   srcname: chafa
@@ -925,17 +915,6 @@
     - LGPL-3.0-or-later
   categories:
     - Graphics
-- repo: stalix
-  srcname: bin/chafa
-  binname: bin/chafa
-  visiblename: bin/chafa
-  version: 1.18.3
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
 - repo: cygwin
   srcname: chafa
   binname: chafa-debuginfo
@@ -1051,66 +1030,6 @@
     - lumin@debian.org
   categories:
     - misc
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: chafa
-  binnames:
-    - chafa
-    - libchafa0t64
-    - libchafa-dev
-  visiblename: chafa
-  version: 1.18.2
-  origversion: 1.18.2-1
-  status: outdated
-  maintainers:
-    - lumin@debian.org
-  categories:
-    - misc
-- repo: deepin_23
-  subrepo: main
-  srcname: chafa
-  binnames:
-    - chafa
-    - libchafa0
-    - libchafa-dev
-  visiblename: chafa
-  version: 1.12.5
-  origversion: 1.12.5-3
-  status: outdated
-  maintainers:
-    - lumin@debian.org
-  categories:
-    - graphics
-- repo: deepin_25
-  subrepo: main
-  srcname: chafa
-  binnames:
-    - chafa
-    - libchafa0
-    - libchafa-dev
-  visiblename: chafa
-  version: 1.12.5
-  origversion: 1.12.5-3
-  status: outdated
-  maintainers:
-    - lumin@debian.org
-  categories:
-    - graphics
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: chafa
-  binnames:
-    - chafa
-    - libchafa0t64
-    - libchafa-dev
-  visiblename: chafa
-  version: 1.18.2
-  origversion: 1.18.2-1
-  status: outdated
-  maintainers:
-    - lumin@debian.org
-  categories:
-    - misc
 - repo: epel_8
   srcname: chafa
   visiblename: chafa
@@ -1173,24 +1092,6 @@
   categories:
     - graphics
 - repo: fedora_41
-  subrepo: release
-  srcname: chafa
-  binnames:
-    - chafa
-    - chafa-libs
-    - chafa-static
-    - chafa-devel
-    - chafa-doc
-  visiblename: chafa
-  version: 1.14.2
-  origversion: 1.14.2-1.fc41
-  status: legacy
-  summary: Image-to-text converter for terminal
-  licenses:
-    - LGPL-3.0-or-later
-  categories:
-    - Unspecified
-- repo: fedora_41
   subrepo: updates
   srcname: chafa
   binnames:
@@ -1208,23 +1109,8 @@
     - LGPL-3.0-or-later
   categories:
     - Unspecified
-- repo: solus
-  srcname: chafa
-  binname: chafa-devel
-  visiblename: chafa-devel
-  version: 1.18.3
-  origversion: null
-  status: newest
-  summary: Development files for chafa
-  maintainers:
-    - jared@jaredcervantes.com
-  licenses:
-    - LGPL-3.0-or-later
-    - GPL-3.0-or-later
-  categories:
-    - programming.devel
-- repo: fedora_42
-  subrepo: updates
+- repo: fedora_41
+  subrepo: release
   srcname: chafa
   binnames:
     - chafa
@@ -1233,9 +1119,9 @@
     - chafa-devel
     - chafa-doc
   visiblename: chafa
-  version: 1.18.2
-  origversion: 1.18.2-1.fc42
-  status: outdated
+  version: 1.14.2
+  origversion: 1.14.2-1.fc41
+  status: legacy
   summary: Image-to-text converter for terminal
   licenses:
     - LGPL-3.0-or-later
@@ -1259,6 +1145,24 @@
     - LGPL-3.0-or-later
   categories:
     - Unspecified
+- repo: fedora_42
+  subrepo: updates
+  srcname: chafa
+  binnames:
+    - chafa
+    - chafa-libs
+    - chafa-static
+    - chafa-devel
+    - chafa-doc
+  visiblename: chafa
+  version: 1.18.2
+  origversion: 1.18.2-1.fc42
+  status: outdated
+  summary: Image-to-text converter for terminal
+  licenses:
+    - LGPL-3.0-or-later
+  categories:
+    - Unspecified
 - repo: fedora_43
   subrepo: release
   srcname: chafa
@@ -1277,6 +1181,18 @@
     - LGPL-3.0-or-later
   categories:
     - Unspecified
+- repo: opensuse_leap_15_6
+  subrepo: updates/backports
+  srcname: chafa
+  visiblename: chafa
+  version: 1.16.1
+  origversion: 1.16.1-bp156.2.3.1
+  status: outdated
+  summary: Image-to-text converter for terminal
+  licenses:
+    - LGPL-3.0-or-later
+  categories:
+    - Amusements/Toys/Graphics
 - repo: fedora_43
   subrepo: updates
   srcname: chafa
@@ -1296,24 +1212,6 @@
   categories:
     - Unspecified
 - repo: fedora_44
-  subrepo: updates
-  srcname: chafa
-  binnames:
-    - chafa
-    - chafa-libs
-    - chafa-static
-    - chafa-devel
-    - chafa-doc
-  visiblename: chafa
-  version: 1.18.3
-  origversion: 1.18.3-1.fc44
-  status: newest
-  summary: Image-to-text converter for terminal
-  licenses:
-    - LGPL-3.0-or-later
-  categories:
-    - Unspecified
-- repo: fedora_44
   subrepo: release
   srcname: chafa
   binnames:
@@ -1326,6 +1224,24 @@
   version: 1.14.5
   origversion: 1.14.5-5.fc44
   status: legacy
+  summary: Image-to-text converter for terminal
+  licenses:
+    - LGPL-3.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: updates
+  srcname: chafa
+  binnames:
+    - chafa
+    - chafa-libs
+    - chafa-static
+    - chafa-devel
+    - chafa-doc
+  visiblename: chafa
+  version: 1.18.3
+  origversion: 1.18.3-1.fc44
+  status: newest
   summary: Image-to-text converter for terminal
   licenses:
     - LGPL-3.0-or-later
@@ -1879,21 +1795,6 @@
   summary: Image-to-text converter for terminal
   categories:
     - System/Libraries
-- repo: solus
-  srcname: chafa
-  binname: chafa-libs
-  visiblename: chafa-libs
-  version: 1.18.3
-  origversion: null
-  status: newest
-  summary: Shared libraries for Chafa
-  maintainers:
-    - jared@jaredcervantes.com
-  licenses:
-    - LGPL-3.0-or-later
-    - GPL-3.0-or-later
-  categories:
-    - programming.library
 - repo: pisi_main
   subrepo: main
   srcname: util/misc/chafa
@@ -2099,6 +2000,36 @@
     - GPL-3.0-or-later
   categories:
     - debug
+- repo: solus
+  srcname: chafa
+  binname: chafa-devel
+  visiblename: chafa-devel
+  version: 1.18.3
+  origversion: null
+  status: newest
+  summary: Development files for chafa
+  maintainers:
+    - jared@jaredcervantes.com
+  licenses:
+    - LGPL-3.0-or-later
+    - GPL-3.0-or-later
+  categories:
+    - programming.devel
+- repo: solus
+  srcname: chafa
+  binname: chafa-libs
+  visiblename: chafa-libs
+  version: 1.18.3
+  origversion: null
+  status: newest
+  summary: Shared libraries for Chafa
+  maintainers:
+    - jared@jaredcervantes.com
+  licenses:
+    - LGPL-3.0-or-later
+    - GPL-3.0-or-later
+  categories:
+    - programming.library
 - repo: spack
   srcname: chafa
   visiblename: chafa
@@ -2109,6 +2040,60 @@
     - fallback-mnt-spack@repology
   licenses:
     - LGPL-3.0-or-later
+- repo: spack
+  srcname: chafa
+  visiblename: chafa
+  version: 1.16.2
+  origversion: null
+  status: outdated
+  maintainers:
+    - fallback-mnt-spack@repology
+  licenses:
+    - LGPL-3.0-or-later
+- repo: stalix
+  srcname: bin/chafa
+  binname: bin/chafa
+  visiblename: bin/chafa
+  version: 1.18.3
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: stalix
+  srcname: lib/chafa
+  binname: lib/chafa
+  visiblename: lib/chafa
+  version: 1.18.3
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - lib
+- repo: stalix_dev
+  srcname: bin/chafa
+  binname: bin/chafa
+  visiblename: bin/chafa
+  version: 1.18.3
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: stalix_dev
+  srcname: lib/chafa
+  binname: lib/chafa
+  visiblename: lib/chafa
+  version: 1.18.3
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - lib
 - repo: t2
   srcname: chafa
   visiblename: chafa
@@ -2192,6 +2177,21 @@
     - lumin@debian.org
   categories:
     - universe/misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: chafa
+  binnames:
+    - chafa
+    - libchafa0t64
+    - libchafa-dev
+  visiblename: chafa
+  version: 1.18.2
+  origversion: 1.18.2-1
+  status: outdated
+  maintainers:
+    - lumin@debian.org
+  categories:
+    - universe/misc
 - repo: void_x86_64
   subrepo: x86_64
   srcname: chafa
@@ -2240,8 +2240,8 @@
   summary: versatile and fast Unicode/ASCII/ANSI graphics renderer
   licenses:
     - GNU Lesser General Public License, version 3.0 or later
-- repo: debian_11
-  subrepo: bullseye/main
+- repo: devuan_4_0
+  subrepo: chimaera/main
   srcname: chafa
   binnames:
     - chafa
@@ -2270,8 +2270,8 @@
   maintainers:
     - cdluminate@gmail.com
   vulnerable: true
-- repo: devuan_4_0
-  subrepo: chimaera/main
+- repo: debian_11
+  subrepo: bullseye/main
   srcname: chafa
   binnames:
     - chafa
