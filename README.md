@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,369 · **Forks**: 121 · **Open issues**: 253 · **Contributors**: 37
+- **Stars**: 5,371 · **Forks**: 121 · **Open issues**: 253 · **Contributors**: 37
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 0 | 0 | 0 | 1 | 1 | 13 |
-| last60d | 2026-09-01 | 1 | 0 | 0 | 2 | 2 | 91 |
-| 90d | 2026-08-02 | 1 | 0 | 0 | 3 | 2 | 178 |
-| last180d | 2026-05-04 | 1 | 3 | 0 | 8 | 6 | 197 |
-| 360d | 2025-11-05 | 4 | 7 | 0 | 18 | 15 | 265 |
-| last720d | 2024-11-10 | 7 | 22 | 0 | 57 | 27 | 522 |
+| 30d | 2026-10-02 | 0 | 0 | 0 | 1 | 1 | 4 |
+| last60d | 2026-09-02 | 1 | 0 | 0 | 2 | 2 | 80 |
+| 90d | 2026-08-03 | 1 | 0 | 0 | 3 | 2 | 178 |
+| last180d | 2026-05-05 | 1 | 3 | 0 | 8 | 6 | 197 |
+| 360d | 2025-11-06 | 4 | 6 | 0 | 18 | 15 | 259 |
+| last720d | 2024-11-11 | 7 | 22 | 0 | 57 | 27 | 521 |
 
 ## Release assets
 
@@ -74,7 +74,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **178** distros on [repology.org](https://repology.org/project/chafa). **45** are ✅ on the latest upstream release, **122** are ⚠️ on an older version.
+Reported by **176** distros on [repology.org](https://repology.org/project/chafa). **45** are ✅ on the latest upstream release, **122** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -100,4 +100,4 @@ Install metadata for chafa lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261031.yml` · 2026-10-31T05:28:42Z._
+_Snapshot: `data/card/261101.yml` · 2026-11-01T05:59:05Z._
