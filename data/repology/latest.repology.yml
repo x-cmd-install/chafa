@@ -1458,23 +1458,23 @@
   srcname: chafa
   binname: chafa
   visiblename: chafa
-  version: 1.18.2
-  origversion: 1.18.2-2
+  version: 1.12.4
+  origversion: 1.12.4-3
   status: outdated
   summary: Image-to-text converter supporting a wide range of symbols and palettes, transparency, animations, etc.
   licenses:
-    - LGPL-3.0-or-later
+    - LGPL
 - repo: manjaro_testing
   subrepo: extra
   srcname: chafa
   binname: chafa
   visiblename: chafa
-  version: 1.18.3
-  origversion: 1.18.3-1
-  status: newest
+  version: 1.12.4
+  origversion: 1.12.4-3
+  status: outdated
   summary: Image-to-text converter supporting a wide range of symbols and palettes, transparency, animations, etc.
   licenses:
-    - LGPL-3.0-or-later
+    - LGPL
 - repo: manjaro_unstable
   subrepo: extra
   srcname: chafa
