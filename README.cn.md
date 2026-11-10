@@ -24,16 +24,6 @@ x install chafa
 | Xml | 955 | 0 | 90 | 5 |
 | Sh | 686 | 109 | 171 | 16 |
 
-## OpenSSF Scorecard 评分
-
-总评分: **5.3 / 10**
-
-评分最低的几项:
-
-- **Packaging** (-1/10) — packaging workflow not detected
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
-
 ## 源代码
 
 - **上游仓库**: <https://github.com/hpjansson/chafa>
@@ -48,7 +38,7 @@ x install chafa
 
 ## 流行度
 
-- **Star**: 5,389 · **Fork**: 124 · **开放 issue**: 253 · **贡献者**: 37
+- **Star**: 5,392 · **Fork**: 125 · **开放 issue**: 253 · **贡献者**: 37
 
 ## 累计统计
 
@@ -58,12 +48,12 @@ x install chafa
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 0 | 0 | 0 | 0 | 0 | 6 |
-| last60d | 2026-09-09 | 1 | 0 | 0 | 2 | 2 | 82 |
-| 90d | 2026-08-10 | 1 | 0 | 0 | 3 | 2 | 139 |
-| last180d | 2026-05-12 | 1 | 3 | 0 | 8 | 6 | 199 |
-| 360d | 2025-11-13 | 3 | 6 | 0 | 17 | 13 | 260 |
-| last720d | 2024-11-18 | 7 | 22 | 0 | 58 | 25 | 511 |
+| 30d | 2026-10-11 | 0 | 0 | 0 | 0 | 0 | 6 |
+| last60d | 2026-09-11 | 1 | 0 | 0 | 2 | 2 | 82 |
+| 90d | 2026-08-12 | 1 | 0 | 0 | 2 | 2 | 139 |
+| last180d | 2026-05-14 | 1 | 3 | 0 | 8 | 6 | 199 |
+| 360d | 2025-11-15 | 3 | 6 | 0 | 17 | 12 | 260 |
+| last720d | 2024-11-20 | 7 | 22 | 0 | 57 | 25 | 511 |
 
 ## Release 资产
 
@@ -100,4 +90,4 @@ chafa 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261108.yml` · 2026-11-08T05:53:40Z._
+_数据快照: `data/card/261110.yml` · 2026-11-10T07:24:08Z._
