@@ -30,9 +30,9 @@ Overall score: **5.3 / 10**
 
 Lowest-scoring checks:
 
-- **SAST** (0/10) — no SAST tool detected
-- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
+- **Code-Review** (0/10) — Found 1/30 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,404 · **Forks**: 128 · **Open issues**: 253 · **Contributors**: 38
+- **Stars**: 5,406 · **Forks**: 128 · **Open issues**: 253 · **Contributors**: 38
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 1 | 0 | 0 | 0 | 3 |
-| last60d | 2026-09-17 | 1 | 1 | 0 | 1 | 2 | 81 |
-| 90d | 2026-08-18 | 1 | 1 | 0 | 2 | 2 | 137 |
-| last180d | 2026-05-20 | 1 | 4 | 0 | 8 | 6 | 200 |
-| 360d | 2025-11-21 | 3 | 7 | 0 | 17 | 11 | 260 |
-| last720d | 2024-11-26 | 7 | 23 | 0 | 57 | 25 | 507 |
+| 30d | 2026-10-18 | 0 | 1 | 0 | 0 | 0 | 3 |
+| last60d | 2026-09-18 | 1 | 1 | 0 | 1 | 2 | 81 |
+| 90d | 2026-08-19 | 1 | 1 | 0 | 2 | 2 | 137 |
+| last180d | 2026-05-21 | 1 | 4 | 0 | 8 | 6 | 200 |
+| 360d | 2025-11-22 | 3 | 7 | 0 | 17 | 11 | 260 |
+| last720d | 2024-11-27 | 7 | 23 | 0 | 57 | 25 | 507 |
 
 ## Release assets
 
@@ -74,7 +74,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **177** distros on [repology.org](https://repology.org/project/chafa). **50** are ✅ on the latest upstream release, **118** are ⚠️ on an older version.
+Reported by **179** distros on [repology.org](https://repology.org/project/chafa). **51** are ✅ on the latest upstream release, **118** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -84,7 +84,7 @@ Reported by **177** distros on [repology.org](https://repology.org/project/chafa
 | Ubuntu 26.04 LTS | `1.18.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.14.0` | ⚠️ outdated |
 | Arch | `1.18.3` | ✅ latest |
-| Homebrew | `1.18.3` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `1.18.3` | ✅ latest |
 | Nix unstable | `1.18.3` | ✅ latest |
 | Void | `1.18.3` | ✅ latest |
@@ -100,4 +100,4 @@ Install metadata for chafa lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T06:24:50Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T08:38:13Z._

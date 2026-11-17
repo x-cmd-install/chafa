@@ -30,9 +30,9 @@ x install chafa
 
 评分最低的几项:
 
-- **SAST** (0/10) — no SAST tool detected
-- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
+- **Code-Review** (0/10) — Found 1/30 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
 
@@ -48,7 +48,7 @@ x install chafa
 
 ## 流行度
 
-- **Star**: 5,404 · **Fork**: 128 · **开放 issue**: 253 · **贡献者**: 38
+- **Star**: 5,406 · **Fork**: 128 · **开放 issue**: 253 · **贡献者**: 38
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install chafa
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 1 | 0 | 0 | 0 | 3 |
-| last60d | 2026-09-17 | 1 | 1 | 0 | 1 | 2 | 81 |
-| 90d | 2026-08-18 | 1 | 1 | 0 | 2 | 2 | 137 |
-| last180d | 2026-05-20 | 1 | 4 | 0 | 8 | 6 | 200 |
-| 360d | 2025-11-21 | 3 | 7 | 0 | 17 | 11 | 260 |
-| last720d | 2024-11-26 | 7 | 23 | 0 | 57 | 25 | 507 |
+| 30d | 2026-10-18 | 0 | 1 | 0 | 0 | 0 | 3 |
+| last60d | 2026-09-18 | 1 | 1 | 0 | 1 | 2 | 81 |
+| 90d | 2026-08-19 | 1 | 1 | 0 | 2 | 2 | 137 |
+| last180d | 2026-05-21 | 1 | 4 | 0 | 8 | 6 | 200 |
+| 360d | 2025-11-22 | 3 | 7 | 0 | 17 | 11 | 260 |
+| last720d | 2024-11-27 | 7 | 23 | 0 | 57 | 25 | 507 |
 
 ## Release 资产
 
@@ -74,7 +74,7 @@ x install chafa
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/chafa) 上共有 **177** 个发行版报告此项目。**50** 个 ✅ 已是最新上游版本，**118** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/chafa) 上共有 **179** 个发行版报告此项目。**51** 个 ✅ 已是最新上游版本，**118** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -84,7 +84,7 @@ x install chafa
 | Ubuntu 26.04 LTS | `1.18.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.14.0` | ⚠️ outdated |
 | Arch | `1.18.3` | ✅ latest |
-| Homebrew | `1.18.3` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `1.18.3` | ✅ latest |
 | Nix unstable | `1.18.3` | ✅ latest |
 | Void | `1.18.3` | ✅ latest |
@@ -100,4 +100,4 @@ chafa 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261116.yml` · 2026-11-16T06:24:51Z._
+_数据快照: `data/card/261117.yml` · 2026-11-17T08:38:13Z._
