@@ -1,3 +1,18 @@
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: chafa
+  binnames:
+    - chafa
+    - libchafa-dev
+    - libchafa0t64
+  visiblename: chafa
+  version: 1.14.5
+  origversion: 1.14.5-1
+  status: outdated
+  maintainers:
+    - lumin@debian.org
+  categories:
+    - graphics
 - repo: raspbian_oldstable
   subrepo: main
   srcname: chafa
@@ -43,21 +58,13 @@
     - lumin@debian.org
   categories:
     - misc
-- repo: kali_rolling
-  subrepo: main
+- repo: homebrew
   srcname: chafa
-  binnames:
-    - chafa
-    - libchafa0t64
-    - libchafa-dev
   visiblename: chafa
-  version: 1.18.2
-  origversion: 1.18.2-1
-  status: outdated
-  maintainers:
-    - lumin@debian.org
-  categories:
-    - misc
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Versatile and fast Unicode/ASCII/ANSI graphics renderer
 - repo: aerynos
   srcname: chafa
   visiblename: chafa
@@ -1295,6 +1302,42 @@
     - LGPL-3.0-or-later
   categories:
     - Unspecified
+- repo: fedora_45
+  subrepo: updates
+  srcname: chafa
+  binnames:
+    - chafa
+    - chafa-libs
+    - chafa-static
+    - chafa-devel
+    - chafa-doc
+  visiblename: chafa
+  version: 1.18.3
+  origversion: 1.18.3-1.fc45
+  status: newest
+  summary: Image-to-text converter for terminal
+  licenses:
+    - LGPL-3.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: chafa
+  binnames:
+    - chafa
+    - chafa-libs
+    - chafa-static
+    - chafa-devel
+    - chafa-doc
+  visiblename: chafa
+  version: 1.18.2
+  origversion: 1.18.2-3.fc45
+  status: legacy
+  summary: Image-to-text converter for terminal
+  licenses:
+    - LGPL-3.0-or-later
+  categories:
+    - Unspecified
 - repo: fedora_rawhide
   subrepo: development
   srcname: chafa
@@ -1361,13 +1404,21 @@
   origversion: null
   status: newest
   summary: Versatile and fast Unicode/ASCII/ANSI graphics renderer
-- repo: homebrew
+- repo: kali_rolling
+  subrepo: main
   srcname: chafa
+  binnames:
+    - chafa
+    - libchafa0t64
+    - libchafa-dev
   visiblename: chafa
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Versatile and fast Unicode/ASCII/ANSI graphics renderer
+  version: 1.18.2
+  origversion: 1.18.2-1
+  status: outdated
+  maintainers:
+    - lumin@debian.org
+  categories:
+    - misc
 - repo: liguros_stable
   srcname: media-gfx/chafa
   visiblename: media-gfx/chafa
@@ -1507,27 +1558,6 @@
   summary: Image-to-text converter supporting a wide range of symbols and palettes, transparency, animations, etc.
   licenses:
     - LGPL-3.0-or-later
-- repo: openmandriva_cooker
-  subrepo: main/release
-  srcname: chafa
-  binnames:
-    - chafa
-    - lib64chafa
-    - lib64chafa-devel
-    - chafa-doc
-    - chafa-debuginfo
-    - chafa-debugsource
-  visiblename: chafa
-  version: 1.18.2
-  origversion: 1.18.2-3
-  status: outdated
-  summary: Image-to-text converter for terminal
-  maintainers:
-    - bero@lindev.ch
-  licenses:
-    - LGPLv3+
-  categories:
-    - System/Libraries
 - repo: msys2_clang64
   srcname: mingw-w64-chafa
   binname: mingw-w64-clang-x86_64-chafa
@@ -1691,6 +1721,27 @@
     - LGPLv3+
   categories:
     - System/Libraries
+- repo: openmandriva_cooker
+  subrepo: main/release
+  srcname: chafa
+  binnames:
+    - chafa
+    - lib64chafa
+    - lib64chafa-devel
+    - chafa-doc
+    - chafa-debuginfo
+    - chafa-debugsource
+  visiblename: chafa
+  version: 1.18.2
+  origversion: 1.18.2-3
+  status: outdated
+  summary: Image-to-text converter for terminal
+  maintainers:
+    - bero@lindev.ch
+  licenses:
+    - LGPLv3+
+  categories:
+    - System/Libraries
 - repo: opensuse_leap_15_5
   subrepo: main/oss
   srcname: chafa
@@ -1776,7 +1827,7 @@
   licenses:
     - LGPL-3.0-or-later
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: chafa
   binnames:
     - chafa
@@ -1791,7 +1842,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: chafa
   binnames:
     - chafa
@@ -1868,21 +1919,6 @@
   version: 1.14.5
   origversion: 1.14.5-3
   status: outdated
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: chafa
-  binnames:
-    - chafa
-    - libchafa-dev
-    - libchafa0t64
-  visiblename: chafa
-  version: 1.14.5
-  origversion: 1.14.5-1
-  status: outdated
-  maintainers:
-    - lumin@debian.org
-  categories:
-    - graphics
 - repo: rosa_2019_1
   subrepo: contrib/release
   srcname: chafa
@@ -2229,6 +2265,22 @@
   summary: versatile and fast Unicode/ASCII/ANSI graphics renderer
   licenses:
     - GNU Lesser General Public License, version 3.0 or later
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: chafa
+  binnames:
+    - chafa
+    - libchafa-dev
+    - libchafa0
+  visiblename: chafa
+  version: 1.6.0
+  origversion: 1.6.0-1
+  status: outdated
+  maintainers:
+    - lumin@debian.org
+  categories:
+    - graphics
+  vulnerable: true
 - repo: debian_11
   subrepo: bullseye/main
   srcname: chafa
@@ -2346,22 +2398,6 @@
   status: outdated
   maintainers:
     - cdluminate@gmail.com
-  categories:
-    - graphics
-  vulnerable: true
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: chafa
-  binnames:
-    - chafa
-    - libchafa-dev
-    - libchafa0
-  visiblename: chafa
-  version: 1.6.0
-  origversion: 1.6.0-1
-  status: outdated
-  maintainers:
-    - lumin@debian.org
   categories:
     - graphics
   vulnerable: true
