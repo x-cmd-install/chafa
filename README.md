@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,413 · **Forks**: 130 · **Open issues**: 253 · **Contributors**: 38
+- **Stars**: 5,415 · **Forks**: 131 · **Open issues**: 253 · **Contributors**: 38
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 1 | 0 | 0 | 0 | 3 |
-| last60d | 2026-09-21 | 1 | 1 | 0 | 1 | 2 | 81 |
-| 90d | 2026-08-22 | 1 | 1 | 0 | 2 | 2 | 137 |
-| last180d | 2026-05-24 | 1 | 4 | 0 | 8 | 6 | 200 |
-| 360d | 2025-11-25 | 3 | 7 | 0 | 17 | 11 | 260 |
-| last720d | 2024-11-30 | 7 | 23 | 0 | 57 | 25 | 507 |
+| 30d | 2026-10-22 | 0 | 1 | 0 | 0 | 0 | 3 |
+| last60d | 2026-09-22 | 1 | 1 | 0 | 1 | 2 | 81 |
+| 90d | 2026-08-23 | 1 | 1 | 0 | 2 | 2 | 137 |
+| last180d | 2026-05-25 | 1 | 4 | 0 | 8 | 6 | 200 |
+| 360d | 2025-11-26 | 3 | 7 | 0 | 17 | 11 | 260 |
+| last720d | 2024-12-01 | 7 | 23 | 0 | 57 | 25 | 507 |
 
 ## Release assets
 
@@ -74,7 +74,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **178** distros on [repology.org](https://repology.org/project/chafa). **51** are ✅ on the latest upstream release, **117** are ⚠️ on an older version.
+Reported by **177** distros on [repology.org](https://repology.org/project/chafa). **51** are ✅ on the latest upstream release, **116** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -100,4 +100,4 @@ Install metadata for chafa lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T07:25:02Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T07:22:57Z._
