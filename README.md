@@ -48,12 +48,12 @@ Total: **63,863** lines of code across **190** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 1 | 1 | 0 | 0 | 3 |
-| last60d | 2026-09-25 | 0 | 1 | 1 | 1 | 1 | 17 |
-| 90d | 2026-08-26 | 1 | 1 | 1 | 2 | 2 | 113 |
-| last180d | 2026-05-28 | 1 | 4 | 1 | 8 | 6 | 195 |
-| 360d | 2025-11-29 | 3 | 6 | 1 | 16 | 11 | 251 |
-| last720d | 2024-12-04 | 7 | 23 | 1 | 56 | 25 | 507 |
+| 30d | 2026-10-26 | 0 | 1 | 1 | 0 | 0 | 3 |
+| last60d | 2026-09-26 | 0 | 1 | 1 | 1 | 1 | 17 |
+| 90d | 2026-08-27 | 1 | 1 | 1 | 2 | 2 | 113 |
+| last180d | 2026-05-29 | 1 | 4 | 1 | 8 | 6 | 195 |
+| 360d | 2025-11-30 | 3 | 6 | 1 | 16 | 11 | 251 |
+| last720d | 2024-12-05 | 7 | 23 | 1 | 56 | 25 | 507 |
 
 ## Release assets
 
@@ -64,7 +64,7 @@ Total: **63,863** lines of code across **190** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **177** distros on [repology.org](https://repology.org/project/chafa). **51** are ✅ on the latest upstream release, **116** are ⚠️ on an older version.
+Reported by **176** distros on [repology.org](https://repology.org/project/chafa). **51** are ✅ on the latest upstream release, **115** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -90,4 +90,4 @@ Install metadata for chafa lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T09:59:12Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T08:23:44Z._
